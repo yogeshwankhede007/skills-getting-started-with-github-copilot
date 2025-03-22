@@ -1,0 +1,48 @@
+.activity-card {
+    /* ...existing styles... */
+}
+
+.participants {
+    margin-top: 10px;
+}
+
+.participants h4 {
+    margin-bottom: 5px;
+}
+
+.participants ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.participants li {
+    font-size: 14px;
+}
+
+/* New styles for participant info */
+.participant-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.participant-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.participant-info .details {
+    font-size: 14px;
+    color: #333;
+}
+
+.participant-info .details .name {
+    font-weight: bold;
+}
+
+.participant-info .details .role {
+    font-style: italic;
+    color: #666;
+}
